@@ -1,0 +1,89 @@
+.title {
+  font-family: $font-playfair;
+  font-size: $text-md;
+  font-weight: bold;
+}
+
+.subtitle {
+  font-family: $font-playfair;
+  font-size: 1.8rem;
+  font-weight: 300;
+  font-style: italic;
+  color: $color-gray-1;
+}
+
+.paragraph__text {
+  font-family: $font-montserrat;
+  font-size: $text-sm;
+  font-weight: 300;
+  margin-top: -3px;
+
+  &--bold {
+    font-weight: 600;
+  }
+
+  &--italic {
+    font-weight: 400;
+    font-style: italic;
+  }
+}
+
+.mg-top-sm {
+  margin-top: 1.3rem;
+}
+
+.mg-btm-sm {
+  margin-bottom: 1.3rem;
+}
+
+.mg-top-xs {
+  margin-top: $space-xs;
+}
+
+.mg-top-md {
+  margin-top: $space-md;
+}
+
+.mg-btm-md {
+  margin-bottom: $space-md;
+}
+
+.mg-top-lg {
+  margin-top: $space-lg;
+}
+
+.mg-btm-lg {
+  margin-bottom: $space-lg;
+}
+
+.mg-top-lgst {
+  margin-top: $space-lgst;
+}
+
+.mg-btm-lgst {
+  margin-bottom: $space-lgst;
+
+  @media only screen and (max-width: $bp-medium) {
+    margin-bottom: $space-lg;
+  }
+
+  @media only screen and (max-width: $bp-small-2) {
+    margin-bottom: $space-sm;
+  }
+}
+
+.mg-btm-xs {
+  margin-bottom: $space-xs;
+}
+
+.mg-right-sm {
+  margin-right: $space-sm;
+}
+
+.color-orange {
+  color: $color-orange;
+}
+
+.color-gray-2 {
+  color: $color-gray-2;
+}

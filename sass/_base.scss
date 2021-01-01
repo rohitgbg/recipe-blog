@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&display=swap');
+
+//Font family
+$font-montserrat: 'Montserrat', sans-serif;
+$font-playfair: 'Playfair Display', sans-serif;
+
+//color
+$color-gray-1: #333333;
+$color-gray-2: #4f4f4f;
+$color-gray-3: #828282;
+$color-gray-4: #bdbdbd;
+$color-orange: #f2994a;
+$color-white: #ffffff;
+$color-black: #000000;
+
+//font size
+$text-xs: 1rem;
+$text-sm: 1.6rem;
+$text-md: 2rem;
+$text-lg: 3rem;
+$text-lgst: 5rem;
+
+//spaces
+$space-xs: 1rem;
+$space-sm: 2rem;
+$space-md: 3rem;
+$space-lg: 4rem;
+$space-lgst: 6rem;
+$space-huge: 8rem;
+
+//break points
+$bp-medium: 54.37em; // 870px
+$bp-small: 41.62em; // 666px
+$bp-small-1: 33.12em; // 550px
+$bp-small-2: 30em; // 480px
+$bp-small-3: 20.5em; //328px
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+html {
+  /* 1rem = 10px */
+  font-size: 62.5%;
+  box-sizing: border-box;
+
+  @media only screen and (max-width: $bp-small-1) {
+    font-size: 55%;
+  }
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+body {
+  font-family: $font-montserrat;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 2rem;
+}
+
+.source a {
+  color: $color-gray-4;
+  font-size: $text-sm;
+  font-weight: 300;
+}
+
+.footer {
+  font-size: $text-sm;
+  color: #a9a9a9;
+  text-align: center;
+  font-weight: 600;
+}
